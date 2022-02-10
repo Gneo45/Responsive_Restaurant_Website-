@@ -54,16 +54,16 @@ const [toggleMenu, setToggleMenu] = useState(false)
               <a href="#home">Home</a>
             </li>
             <li className="p__opensans">
-              <a href="#about">About</a>
+              <a href="#about"  onClick={() => setToggleMenu(false)} >About</a>
             </li>
             <li className="p__opensans">
-              <a href="#menu">Menu</a>
+              <a href="#menu"  onClick={() => setToggleMenu(false)} >Menu</a>
             </li>
             <li className="p__opensans">
-              <a href="#awards">Awards</a>
+              <a href="#awards" onClick={() => setToggleMenu(false)}>Awards</a>
             </li>
             <li className="p__opensans">
-              <a href="#contact">Contact</a>
+              <a href="#contact" onClick={() => setToggleMenu(false)}>Contact</a>
             </li>
           </ul>
         </div>

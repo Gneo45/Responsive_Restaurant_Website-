@@ -21,9 +21,10 @@ const Intro = () => {
   return (
     <div className="app__video">
       <video
-        src={meal}
+        src={`${meal}#t=0.001`}
         ref={vidRef}
         type="video/mp4"
+        preload="metadata"
         loop
         controls={false}
         muted
